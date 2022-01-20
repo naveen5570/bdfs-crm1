@@ -1,0 +1,79 @@
+body{
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 0.5em;
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.login-form .form-group{
+    position: relative;
+    margin-bottom: 25px;
+}
+.login-form .form-group i {
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    height: 42px;
+    border-right: 1px solid #ffffff;
+    width: 42px;
+    line-height: 42px;
+    font-size: 18px;
+}
+.login-form .form-control {
+    border-radius: 0px;
+    padding: 6px 3px 6px 50px;
+    color: #fff;
+    height: 42px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.form-control:focus{
+    box-shadow:none;
+}
+.login-form .btn {
+    background: #000000;
+    border: 1px solid #000000;
+    padding: 8px 10px;
+    color: #fff;
+    height: 40px;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-form p {
+    color: #dcdcdc;
+}
+.login-form p a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    outline: none;
+}
+.form-control::-webkit-input-placeholder { 
+  color: #fff;
+}
+.form-control:-ms-input-placeholder { 
+    color: #fff;
+}
+.form-control::-moz-placeholder {
+  color: #fff;
+}
+.form-control:-moz-placeholder { 
+  color: #fff;
+}

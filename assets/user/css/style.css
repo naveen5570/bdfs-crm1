@@ -1,0 +1,737 @@
+body{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+h1.headtit {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*lead create*/
+.leadfrm{
+    overflow: hidden;
+}
+.creoption h1.headtit{
+    float: left;
+    line-height: 34px;
+}
+.creoption {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.creoption .btn {
+    background: #2b2b2b;
+    margin-left: 5px;
+    float: right;
+    color: #fff;
+    border-radius: 3px;
+    padding: 6px 20px;
+}
+.myform {
+    padding: 2vw;
+    border: 1px solid #ddd;
+    position: relative;
+    background: #fff;
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px #d2d2d2;
+}
+.myform h6{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+ hr.myhr {
+    margin: 0px;
+    background: #000;
+    width: 70px;
+    height: 1px;
+    border: none;
+    margin-bottom: 15px;
+}
+.myform label {
+    font-weight: 100;
+    margin: 0px;
+    font-size: 12px;
+}
+.myform .form-group {
+    margin-bottom: 25px;
+}
+.myform .form-control {
+    border-radius: 3px;
+}
+.myform .form-control:focus{
+    border-color:#000;
+    box-shadow: none;
+}
+/*lead create*/
+/*leadpage*/
+.leadpage {
+    padding: 2vw;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #e2e2e2;
+}
+
+a.atag {
+    display: block;
+    color: #464646;
+    text-decoration: none;
+}
+a.editatag {
+    display: block;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+.leadpage td,.leadpage th {
+    font-size: 13px;
+    text-align: center;
+}
+
+.leadpage td{
+}
+
+.leadpage td:first-child,.leadpage th:first-child{
+    text-align: left;
+}
+.leadpage td:last-child{
+    text-align: right;
+}
+.leadpage a.btn {
+    padding: 4px 8px;
+    font-size: 12px;
+}
+/*leadpage*/
+/*profile*/
+.profile{
+   padding: 2vw;
+    background: #fff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid #e2e2e2;
+}
+.profile h1 img{
+    width: 44px;
+    margin-right: 5px;
+}
+.profile h1 {
+    font-size: 26px;
+    line-height: 44px;
+    margin-bottom: 15px;
+}
+.profile h2 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.profile h2 span {
+    width: 150px;
+    float: left;
+}
+.profile h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0 15px 0;
+}
+/*profile*/
+.mydiv{
+    overflow: hidden;
+    border: 1px solid #ddd;
+    padding: 30px;
+    background: #fff;
+}
+h1.adminh3 {
+    margin: 0px;
+    padding: 8px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: #00c6d7;
+}
+.mydiv .btn{
+        border-radius: 0px;
+        color: #fff;
+        width: 100%;
+        background: #00c6d7;
+        border-color: #00c6d7;
+}
+.profile h1 span {
+    border: 1px solid #00c6d7;
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+    color: #00c6d7;
+    padding: 0 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.profile h1 span:hover {
+    background: #00c6d7;
+    color: #fff;
+}
+/*admin*/
+.admbox {
+    background: #00c6d7;
+    overflow: hidden;
+    padding-top: 5px;
+    box-shadow: 0px 0px 5px #404040;
+}
+.admbox i {
+    float: left;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.04);
+    width: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    margin-left:10px;
+}
+.admbox h4 {
+    text-align: right;
+    font-size: 26px;
+    color: #fff;
+    line-height: 60px;
+    margin-right: 10px;
+}
+.admbox h6 {
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    background: rgba(0, 0, 0, 0.04);
+    padding: 3px 0px;
+}
+/*admin*/
+/*dahsobard*/
+.statusdash .tab-pane {
+    padding: 2vw;
+    border: 1px solid #ddd;
+    border-top: none;
+    background: #fff;
+    overflow: hidden;
+}
+.statusdash .tab-pane .table{
+    overflow: hidden;
+}
+.statusdash .tab-pane h3 {
+    margin: 0px;
+    font-size: 15px;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+/*viewlead*/
+.viewLead {
+    padding: 2vw;
+    background: #fff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid #e2e2e2;
+}
+.viewLead h1 {
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+ul.viewldlst {
+    text-align: right;
+    overflow: hidden;
+    padding: 2px 0px;
+}
+ul.viewldlst li {
+    display: inline-block;
+    margin-left: 10px;
+}
+ul.viewldlst li a {
+     border: 1px solid #333;
+    font-size: 12px;
+    color: #333;
+    outline: none;
+    text-decoration: none;
+    padding: 3px 12px;
+    cursor: pointer;
+    display: inline-block;
+}
+.nextprvlist {
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+select.statuschange {
+    border: 1px solid #333;
+    font-size: 12px;
+    color: #333;
+    outline: none;
+    text-decoration: none;
+    padding: 3px 12px;
+    cursor: pointer;
+    display: inline-block;
+}
+.nextprvlist a {
+    line-height: 22px;
+    border: 1px solid #333;
+    font-size: 22px;
+    color: #333;
+    margin: 2px 0px;
+    outline: none;
+    text-decoration: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+}
+.userproled {
+    border: 1px solid #00c6d7;
+    overflow: hidden;
+     background: #00c6d7;
+}
+.viewLead h2 {
+    font-size: 13px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+.viewLead h2 span {
+    width: 100px;
+    float: left;
+    font-weight: 100;
+    color: #808080;
+}
+.leadinfo {
+    padding-top: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.leadinfo h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.leadinfo .row {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 5px;
+    color: #616161;
+}
+
+/*viewlead*/
+/*uploadbox*/
+.uploadbox {
+    display: block;
+    padding: 2vw;
+    font-size: 40px;
+    text-align: center;
+    border: 1px dashed #b3b3b3;
+}
+.uploadbox .btn {
+    border: none;
+    background: #00c6d7;
+    color: #fff;
+    padding: 8px 8vw;
+    position: relative;
+    outline: none;
+}
+.uploadbox .btn input[type="file"] {
+    background: #00c6d7;
+    opacity: 0;
+    width: 100%;
+    height: 23px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+}
+/*uploadbox*/
+/*mailmodl*/
+.mailmodl .modal-dialog {
+    width: 60%;
+}
+.mailmodl .modal-content {
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0px 0px 10px #000;
+}
+.mailmodl .modal-header {
+    padding: 6px 15px;
+    border-bottom: 1px solid #000000;
+    background: #000;
+    color: #fff;
+}
+.mailmodl .modal-header .close {
+    margin-top: 0px;
+    color: #fff;
+    opacity: 1;
+    outline: none;
+    font-size: 25px;
+}
+.mailmodl .form-group {
+    position: relative;
+}
+.mailmodl .form-control {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+    padding-left: 6vw;
+}
+.mailmodl .form-group label {
+    position: absolute;
+    float: left;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0px;
+    color: #797979;
+    line-height: 34px;
+}
+.mailmodl  textarea.form-control {
+    padding: 6px 12px;
+}
+.mailmodl  button.btn {
+    background: #000;
+    color: #fff;
+    width: 100%;
+}
+/*mailmodl*/
+/*addnotes*/
+.notesmodel .modal-content {
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0px 0px 10px #000;
+}
+.notesmodel .modal-header {
+    padding: 6px 15px;
+    border-bottom: 1px solid #000000;
+    background: #000;
+    color: #fff;
+}
+.notesmodel .modal-header .close {
+    margin-top: 0px;
+    color: #fff;
+    opacity: 1;
+    outline: none;
+    font-size: 25px;
+}
+.notesmodel .form-control {
+
+    border-radius: 0px;
+
+}
+.notesmodel button.btn {
+    background: #000;
+    color: #fff;
+    width: 100%;
+}
+ul.notesbox {
+    height: 260px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+ul.notesbox li {
+    border-bottom: 1px solid #dedede;
+    padding: 5px;
+}
+ul.notesbox li h5 {
+    font-size: 12px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    color: #000;
+}
+ul.notesbox li h5 span {
+
+    font-size: 10px;
+    font-weight: 100;
+    margin-left: 10px;
+
+}
+ul.notesbox li h6 {
+    font-size: 12px;
+    font-weight: 100;
+    color: #6f6f6f;
+    line-height: 18px;
+}
+.notesfromsmt {
+    margin-top: 25px;
+    overflow: hidden;
+}
+.notesfromsmt input.form-control {
+    height: 40px;
+    border-radius: 0px;
+}
+.notesfromsmt .form-group{
+		position:relative;
+}
+.notesfromsmt .btn {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    height: 40px;
+    padding: 6px 40px;
+    background: #00c6d7;
+    color: #fff;
+    border-radius: 0px;
+	float:right;
+	margin-top:15px;
+}
+/*addnotes*/
+/*dashgraph*/
+.dashgraph {
+    overflow: hidden;
+    margin-top: 30px;
+    background: #fff;
+    padding: 1vw;
+    border: 1px solid #ddd;
+}
+.dashgraph h2 {
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 10px;
+}
+ul.dashulsct {
+    overflow: hidden;
+    padding: 5px 10px;
+}
+.dashulsct li {
+    position: relative;
+    padding-bottom: 15px;
+    border-left: 1px solid #00c6d7;
+    padding-left: 15px;
+}
+.dashulsct li h6 {
+    font-weight: 600;
+    font-size: 12px;
+}
+.dashulsct li:before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 0;
+    background-color: #00c6d7;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+/*dashgraph*/
+
+.notify .dropdown-menu{
+    width: 380px;
+}
+.notify .dropdown-menu li {
+    border: none;
+    padding: 0px !important;
+    display: block;
+}
+.notify .dropdown-menu li:last-child {
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 12px;
+}
+.notify .dropdown-menu li:last-child a{
+    border-bottom: 0px solid #ddd;
+    padding: 2px 0px;
+    margin: 0px;
+}
+.notify .dropdown-menu li a {
+    line-height: 20px;
+    font-size: 12px;
+    display: block;
+    white-space: inherit;
+    padding: 8px 5px;
+    color: #6f6f6f;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 3px;
+}
+.notify .dropdown-menu li img {
+    float: left;
+        margin-right: 5px;
+    width: 34px;
+}
+.notify .dropdown-menu li h6 {
+    margin: 0px;
+    padding: 2px 5px;
+    overflow: hidden;
+    line-height: 16px;
+}
+.notify li.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.notify li.dropdown:after {
+    content: '03';
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    bottom: -15px;
+    background: #000;
+    border-radius: 50%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.dashnoti {
+    overflow: hidden;
+    margin-top: 10px;
+    background: #fff;
+    padding: 1vw;
+    border: 1px solid #ddd;
+}
+.dashnoti ul li{
+    display: block;
+    overflow: hidden;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ddd;
+}
+.dashnoti ul li img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 14px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid #969696;
+}
+.dashnoti ul li p {
+    color: #7b7b7b;
+    font-size: 12px;
+}
+.dashnoti ul li h5{
+    font-weight: 600;
+    color: #5d5d5d;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.dashnoti ul li h5 span{
+    font-weight: 100;
+    font-size: 11px;
+    margin-left: 20px;
+    color: #797979;
+}
+.dashnoti ul li a{
+    text-decoration: none;
+    color: #5d5d5d;
+}
+.dashnoti ul li:last-child{
+    border-bottom: none;
+}
+
+/*notifictb*/
+.notifictb{
+
+}
+
+/*notifictb*/
+
+.leadscroll{
+    overflow-x: auto;
+    overflow-y: auto;
+	    min-height: 500px;
+
+
+}
+.leadscroll .dataTables_wrapper {
+    padding: 2vw;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 15px;
+    width: 7000px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+a.admbox {
+    display: block;
+    text-decoration: none;
+}
+
+.addnotesnote .modal-header {
+    padding: 6px 15px;
+    border-bottom: 1px solid #000000;
+    background: #000;
+    color: #fff;
+}
+.leadscroll .dataTables_length {
+    margin-right: 60px;
+}
+.leadscroll .dataTables_filter {
+    float: none !important;
+    text-align: left !important;
+}
+.addnotesnote .modal-header .close {
+    margin-top: 0px;
+    color: #fff;
+    opacity: 1;
+    outline: none;
+    font-size: 25px;
+}
+.leadscroll .dataTables_length {
+    margin-right: 60px;
+}
+.leadscroll .dataTables_filter {
+    float: none !important;
+    text-align: left !important;
+}
+.notypnl .tab-pane{
+    padding: 20px 5px;
+}
+.notyfy span {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    text-indent: 0px;
+    right: 5px;
+    background: #00c6d7;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 0px;
+    border-radius: 50%;
+    top: 14px;
+    font-size: 14px;
+    margin: auto;
+}
+
+.followup-title{
+	font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+.notificationcountlist {
+    padding-top: 10px;
+}
+
+
+textarea[name="msg"] {width:100%; min-height:200px;}
+
+.delete_note { font-size:12px; border:0;}
+
+.delete_note input[type="submit"] {border:0; background:none; color:red; text-align:left; padding:0;}
+.edit_notee {font-size:12px; color:green;}
+
+.dataTables_wrapper .dataTables_paginate {float:left; margin-left:50px;}
+
+
+.tags_nav {float:left; background:#090; padding:5px 15px; margin: 3px; color:#fff; border-radius:12px;}
+.tags_main {float:left; width:100%;}
+
+.buttons-html5 {background:#449d44; color:#fff; padding:5px 20px; border:0px; margin-bottom:15px; margin-top:8px; border-radius:5px; }
+

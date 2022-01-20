@@ -1,0 +1,15 @@
+<IfModule mod_php5.c>
+    #Session timeout
+    php_value session.cookie_lifetime 60
+    php_value session.gc_maxlifetime 60
+</IfModule>
+
+Options +MultiViews
+RewriteEngine On
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
